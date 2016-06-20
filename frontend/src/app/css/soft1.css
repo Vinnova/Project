@@ -1,0 +1,37 @@
+table {
+  font-family: 'Verdana';
+  margin: 25px auto;
+  border-collapse: separate;
+  border-spacing: 3px;
+  border: 1px solid #eee;
+  box-shadow:0px 0px 20px #808080;
+  text-align:center;
+  border-radius:10px;
+}
+
+td:hover {
+  color: #555;
+  background: #f1f1f1;
+  text-decoration: underline;
+}
+th, td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+}
+th {
+  background: rgb(255, 68, 0);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 5px;
+}
+tr, td {
+  transition: all 1s;
+  border-radius: 5px;
+  box-shadow: 3px 3px #808080;
+}
+
+.place-orders {
+  text-decoration-color: orange;
+}
