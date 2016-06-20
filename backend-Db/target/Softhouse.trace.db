@@ -1,0 +1,96 @@
+05-26 10:34:44 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'' (MANAGERS: ID INT DEFAULT (NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_38029552_78F9_42F9_B609_453F6E8EAA7C) NOT NULL NULL_TO_DEFAULT SEQUENCE PUBLIC.SYSTEM_SEQUENCE_38029552_78F9_42F9_B609_453F6E8EAA7C)"; SQL statement:
+INSERT INTO "PUBLIC"."MANAGERS"("ID","NAME","EMAIL","PASSWORD")VALUES(?,?,?,?) -- (?1, ?2, ?3, ?4) [22018-176]
+05-26 10:34:44 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'' (MANAGERS: ID INT DEFAULT (NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_38029552_78F9_42F9_B609_453F6E8EAA7C) NOT NULL NULL_TO_DEFAULT SEQUENCE PUBLIC.SYSTEM_SEQUENCE_38029552_78F9_42F9_B609_453F6E8EAA7C)"; SQL statement:
+INSERT INTO "PUBLIC"."MANAGERS"("ID","NAME","EMAIL","PASSWORD")VALUES(?,?,?,?) -- (?1, ?2, ?3, ?4) [22018-176]
+06-08 15:02:21 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.message.DbException.get(DbException.java:143)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:191)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:496)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:437)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.testAllIdle(ConnectionPool.java:1038)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool$PoolCleaner.run(ConnectionPool.java:1347)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+06-08 15:02:21 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.message.DbException.get(DbException.java:143)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:191)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:496)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:437)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.testAllIdle(ConnectionPool.java:1038)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool$PoolCleaner.run(ConnectionPool.java:1347)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+06-08 15:02:21 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.message.DbException.get(DbException.java:143)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:191)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:496)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:437)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.testAllIdle(ConnectionPool.java:1038)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool$PoolCleaner.run(ConnectionPool.java:1347)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+06-08 15:02:21 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.message.DbException.get(DbException.java:143)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:191)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:496)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:437)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.testAllIdle(ConnectionPool.java:1038)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool$PoolCleaner.run(ConnectionPool.java:1347)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+06-08 15:02:21 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.message.DbException.get(DbException.java:143)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:191)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:496)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:437)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.testAllIdle(ConnectionPool.java:1038)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool$PoolCleaner.run(ConnectionPool.java:1347)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+06-08 15:02:21 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.message.DbException.get(DbException.java:143)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:191)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:496)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.validate(PooledConnection.java:437)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.testAllIdle(ConnectionPool.java:1038)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool$PoolCleaner.run(ConnectionPool.java:1347)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
